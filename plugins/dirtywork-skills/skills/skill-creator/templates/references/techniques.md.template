@@ -1,0 +1,140 @@
+# Techniques
+
+**Usage:** This file documents the technical methodologies, algorithms, and approaches used by this skill. Reference it when you need to understand the "how" behind the skill's implementation.
+
+---
+
+## Overview
+
+[SKILL_NAME] uses the following core technical approaches:
+
+1. **[Technique 1]** - [Brief description of what it does and when it's used]
+2. **[Technique 2]** - [Brief description of what it does and when it's used]
+3. **[Technique 3]** - [Brief description of what it does and when it's used]
+
+---
+
+## Technique 1: [Name]
+
+**Purpose:** What problem this technique solves and when to apply it.
+
+### Algorithm
+
+```
+[Step-by-step description or pseudocode]
+
+1. [First step]
+2. [Second step]
+3. [Third step]
+```
+
+### Implementation Details
+
+- **Input:** [What data this technique requires]
+- **Output:** [What this technique produces]
+- **Complexity:** [Time/space complexity if relevant]
+- **Edge Cases:** [Special conditions to handle]
+
+### Example
+
+```python
+# Code example showing the technique in action
+[Your code here]
+```
+
+**Result:** `[Expected output or outcome]`
+
+### Trade-offs
+
+| Approach | Pros | Cons | When to Use |
+|----------|------|------|-------------|
+| [This technique] | [Benefits] | [Drawbacks] | [Best scenarios] |
+| [Alternative] | [Benefits] | [Drawbacks] | [Best scenarios] |
+
+---
+
+## Technique 2: [Name]
+
+**Purpose:** What problem this technique solves and when to apply it.
+
+### Methodology
+
+[Description of the methodology or approach]
+
+**Key Principles:**
+1. [Principle 1]
+2. [Principle 2]
+3. [Principle 3]
+
+### Configuration
+
+```yaml
+# Example configuration
+setting_1: "value_1"
+setting_2: "value_2"
+```
+
+### Parameters
+
+| Parameter | Type | Default | Description |
+|-----------|------|---------|-------------|
+| `param_1` | string | `"default"` | [What it controls] |
+| `param_2` | integer | `42` | [What it controls] |
+| `param_3` | boolean | `true` | [What it controls] |
+
+---
+
+## Technique 3: [Name]
+
+**Purpose:** What problem this technique solves and when to apply it.
+
+### Process Flow
+
+```
+[Input] → [Step 1] → [Step 2] → [Step 3] → [Output]
+```
+
+### Step-by-Step
+
+1. **[Step Name 1]**
+   - Action: [What happens]
+   - Validation: [How to verify correctness]
+
+2. **[Step Name 2]**
+   - Action: [What happens]
+   - Validation: [How to verify correctness]
+
+3. **[Step Name 3]**
+   - Action: [What happens]
+   - Validation: [How to verify correctness]
+
+### Error Handling
+
+| Error | Cause | Resolution |
+|-------|-------|------------|
+| `[Error name]` | [What causes it] | [How to fix] |
+| `[Error name]` | [What causes it] | [How to fix] |
+
+---
+
+## Best Practices
+
+### Do's
+
+- ✅ [Best practice 1 for using these techniques]
+- ✅ [Best practice 2 for using these techniques]
+- ✅ [Best practice 3 for using these techniques]
+
+### Don'ts
+
+- ❌ [Common mistake 1 to avoid]
+- ❌ [Common mistake 2 to avoid]
+- ❌ [Common mistake 3 to avoid]
+
+---
+
+## References
+
+- [External resource or documentation for Technique 1]
+- [External resource or documentation for Technique 2]
+- [External resource or documentation for Technique 3]

@@ -1,0 +1,11 @@
+{
+  "name": "dirtywork-skills",
+  "version": "1.0.3",
+  "description": "Knowledge-work skills for shaping messy input into a decision: Toyota one-page minimal thinking, a focus-task execution card, first-principles reasoning, session handoff and handoff-plan, a skill authoring and evaluation toolkit, and git-squash branch cleanup.",
+  "author": {
+    "name": "zhengshuaijie",
+    "email": "zhengshuaiji@gmail.com"
+  },
+  "homepage": "https://github.com/ZhengSJCode/agents",
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "dirtywork-skills",
+  "version": "1.0.2",
+  "description": "Knowledge-work skills for shaping messy input into a decision: Toyota one-page minimal thinking, a focus-task execution card, first-principles reasoning, a skill authoring and evaluation toolkit, and a git-squash workflow for collapsing a branch's commits into one.",
+  "author": {
+    "name": "zhengshuaijie",
+    "email": "zhengshuaiji@gmail.com"
+  },
+  "homepage": "https://github.com/ZhengSJCode/agents",
+  "license": "Apache-2.0",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Dirtywork Skills",
+    "shortDescription": "Turn messy input into focused decisions and execution.",
+    "longDescription": "Knowledge-work skills for one-page thinking, focused execution cards, and skill authoring.",
+    "developerName": "zhengshuaijie",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://github.com/ZhengSJCode/agents",
+    "defaultPrompt": [
+      "Use one-page thinking to structure this.",
+      "Turn this into one focused execution card."
+    ]
+  }
+}

@@ -1,0 +1,237 @@
+# Checklist
+
+**Usage:** This file contains pre-flight checks, validation criteria, and quality standards for this skill. Use it to verify outputs and maintain quality standards.
+
+---
+
+## Pre-Execution Checklist
+
+Before starting the main work, verify:
+
+### Environment
+
+- [ ] Required tools are available
+- [ ] Input files exist and are readable
+- [ ] Output directory is writable
+- [ ] Configuration is valid
+
+### Input Validation
+
+- [ ] Input data is properly formatted
+- [ ] Required fields are present
+- [ ] No conflicting parameters
+- [ ] Values are within acceptable ranges
+
+### Prerequisites
+
+- [ ] Dependencies are installed
+- [ ] External services are accessible
+- [ ] Required permissions are granted
+- [ ] Resource limits are acceptable
+
+---
+
+## Quality Criteria
+
+### Output Quality Standards
+
+| Criterion | Standard | How to Verify |
+|-----------|----------|---------------|
+| **Accuracy** | [Definition of accuracy] | [Verification method] |
+| **Completeness** | [Definition of complete] | [Verification method] |
+| **Consistency** | [Definition of consistent] | [Verification method] |
+| **Performance** | [Performance requirement] | [Measurement method] |
+
+### Format Requirements
+
+- [ ] Output follows specified schema
+- [ ] Required fields are present
+- [ ] Data types are correct
+- [ ] Naming conventions are followed
+- [ ] Encoding is correct (UTF-8, etc.)
+
+---
+
+## Validation Steps
+
+### Step 1: [Validation Category]
+
+**Check:** [What you're validating]
+
+**Pass Criteria:**
+- [ ] [Specific check 1]
+- [ ] [Specific check 2]
+- [ ] [Specific check 3]
+
+**Fail Action:** [What to do if validation fails]
+
+### Step 2: [Validation Category]
+
+**Check:** [What you're validating]
+
+**Pass Criteria:**
+- [ ] [Specific check 1]
+- [ ] [Specific check 2]
+- [ ] [Specific check 3]
+
+**Fail Action:** [What to do if validation fails]
+
+### Step 3: [Validation Category]
+
+**Check:** [What you're validating]
+
+**Pass Criteria:**
+- [ ] [Specific check 1]
+- [ ] [Specific check 2]
+- [ ] [Specific check 3]
+
+**Fail Action:** [What to do if validation fails]
+
+---
+
+## Common Issues to Check
+
+### Issue 1: [Issue Name]
+
+**Symptoms:**
+- [Symptom 1]
+- [Symptom 2]
+
+**Detection:**
+```bash
+# Command or check to detect this issue
+[Detection method]
+```
+
+**Resolution:**
+1. [Step 1 to fix]
+2. [Step 2 to fix]
+
+### Issue 2: [Issue Name]
+
+**Symptoms:**
+- [Symptom 1]
+- [Symptom 2]
+
+**Detection:**
+```bash
+# Command or check to detect this issue
+[Detection method]
+```
+
+**Resolution:**
+1. [Step 1 to fix]
+2. [Step 2 to fix]
+
+---
+
+## Post-Execution Checklist
+
+After completing the work, verify:
+
+### Output Verification
+
+- [ ] All expected outputs were generated
+- [ ] Output files are valid and complete
+- [ ] No errors or warnings in logs
+- [ ] File sizes are reasonable
+
+### Quality Checks
+
+- [ ] Results meet quality criteria
+- [ ] No data corruption
+- [ ] Consistent with input
+- [ ] Meets performance expectations
+
+### Cleanup
+
+- [ ] Temporary files removed
+- [ ] Resources released
+- [ ] Logs archived (if needed)
+- [ ] State reset for next run
+
+---
+
+## Sign-Off Criteria
+
+The work is complete when:
+
+✅ **Mandatory:**
+- [ ] All pre-execution checks pass
+- [ ] All validation steps pass
+- [ ] All post-execution checks pass
+- [ ] No critical errors
+
+✅ **Quality:**
+- [ ] Output meets all quality criteria
+- [ ] Performance within acceptable range
+- [ ] No unresolved warnings
+
+✅ **Documentation:**
+- [ ] Changes documented (if applicable)
+- [ ] Results logged
+- [ ] Known issues noted
+
+---
+
+## Automated Validation
+
+### Validation Script
+
+```bash
+#!/bin/bash
+# Automated validation script
+
+echo "Running validation checks..."
+
+# Pre-execution checks
+echo "Checking environment..."
+[ -f "required_file.txt" ] || { echo "Missing required file"; exit 1; }
+
+# Output validation
+echo "Validating output..."
+[ -f "output.txt" ] || { echo "Missing output file"; exit 1; }
+
+# Quality checks
+echo "Running quality checks..."
+# Add your validation commands here
+
+echo "All checks passed!"
+```
+
+### Integration with CI/CD
+
+Include this checklist in your automated testing:
+
+```yaml
+# Example CI configuration
+test:
+  script:
+    - python scripts/validate_output.py
+    - bash scripts/checklist.sh
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+```
+
+---
+
+## Version-Specific Notes
+
+### Version 1.0.0
+
+**Known Issues:**
+- [Known issue 1]
+- [Known issue 2]
+
+**Workarounds:**
+- [Workaround for issue 1]
+- [Workaround for issue 2]
+
+### Version 1.1.0
+
+**Changes:**
+- Added [new validation]
+- Fixed [previous issue]
+
+**Migration Notes:**
+- [Any changes needed when upgrading]

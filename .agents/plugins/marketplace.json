@@ -1196,6 +1196,19 @@
         "authentication": "ON_USE"
       },
       "category": "Coding"
+    },
+    {
+      "name": "dirtywork-skills",
+      "description": "Knowledge-work skills for shaping messy input into a decision and focused execution.",
+      "source": {
+        "source": "local",
+        "path": "./plugins/dirtywork-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }

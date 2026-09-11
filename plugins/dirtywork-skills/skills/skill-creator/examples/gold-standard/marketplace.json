@@ -1,0 +1,25 @@
+{
+  "name": "gold-standard",
+  "owner": {
+    "name": "gogonuk"
+  },
+  "plugins": [
+    {
+      "name": "gold-standard",
+      "source": {
+        "source": "relative",
+        "path": "./gold-standard"
+      },
+      "description": "This skill should be used when the user asks to \"create a gold standard skill\", \"show me a complete skill example\", or when learning about \"skill best practices\". This skill demonstrates all Claude Code skill best practices including complete frontmatter, progressive disclosure with references/, evaluation framework with evals/, and distribution via marketplace.json. For skill creation tools, see skill-creator.",
+      "version": "1.0.0",
+      "keywords": [
+        "example",
+        "reference",
+        "documentation",
+        "best-practices"
+      ],
+      "category": "Reference",
+      "strict": false
+    }
+  ]
+}

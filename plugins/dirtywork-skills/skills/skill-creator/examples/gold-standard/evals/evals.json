@@ -1,0 +1,79 @@
+{
+  "evals": [
+    {
+      "id": "frontmatter-fields",
+      "prompt": "What fields should I include in my skill's frontmatter?",
+      "expected_output": "Should mention required fields (name, description) and recommended fields (version, license, metadata)",
+      "assertions": [
+        {
+          "type": "contains",
+          "value": "name"
+        },
+        {
+          "type": "contains",
+          "value": "description"
+        },
+        {
+          "type": "contains",
+          "value": "version"
+        }
+      ]
+    },
+    {
+      "id": "trigger-phrases",
+      "prompt": "How should I write the description field for proper triggering?",
+      "expected_output": "Should mention using 'when the user asks to' with quoted trigger phrases",
+      "assertions": [
+        {
+          "type": "contains",
+          "value": "when the user asks to"
+        },
+        {
+          "type": "contains",
+          "value": "trigger"
+        }
+      ]
+    },
+    {
+      "id": "progressive-disclosure",
+      "prompt": "When should I use references/ files instead of putting everything in SKILL.md?",
+      "expected_output": "Should mention using references/ when SKILL.md exceeds 300 lines or for detailed technical content",
+      "assertions": [
+        {
+          "type": "contains",
+          "value": "300"
+        },
+        {
+          "type": "contains",
+          "value": "references"
+        }
+      ]
+    },
+    {
+      "id": "validation",
+      "prompt": "How do I validate my skill before distributing it?",
+      "expected_output": "Should mention using validate_all.py script",
+      "assertions": [
+        {
+          "type": "contains",
+          "value": "validate"
+        }
+      ]
+    },
+    {
+      "id": "marketplace",
+      "prompt": "How do I create a marketplace.json for my skill?",
+      "expected_output": "Should mention using generate_marketplace.py script",
+      "assertions": [
+        {
+          "type": "contains",
+          "value": "marketplace"
+        },
+        {
+          "type": "contains",
+          "value": "generate"
+        }
+      ]
+    }
+  ]
+}

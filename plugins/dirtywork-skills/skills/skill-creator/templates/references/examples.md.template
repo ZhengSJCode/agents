@@ -1,0 +1,226 @@
+# Examples
+
+**Usage:** This file contains worked examples demonstrating the skill in action. Reference it when you need to understand expected behavior or troubleshoot issues.
+
+---
+
+## Example 1: [Simple/Basic Use Case]
+
+**Scenario:** [Description of a simple, common scenario]
+
+**Input:**
+```
+[The input or prompt for this example]
+```
+
+**Expected Output:**
+```
+[What the skill should produce]
+```
+
+**Explanation:**
+- [Key point about why this output is correct]
+- [What patterns or techniques were applied]
+
+---
+
+## Example 2: [Intermediate Use Case]
+
+**Scenario:** [Description of a more complex scenario]
+
+**Input:**
+```
+[The input or prompt for this example]
+```
+
+**Expected Output:**
+```
+[What the skill should produce]
+```
+
+**Step-by-Step:**
+1. **[Step 1]**: [What happens first]
+   - Result: `[Intermediate result]`
+
+2. **[Step 2]**: [What happens next]
+   - Result: `[Intermediate result]`
+
+3. **[Step 3]**: [What happens last]
+   - Result: `[Final output]`
+
+**Key Concepts Demonstrated:**
+- [Concept 1]
+- [Concept 2]
+
+---
+
+## Example 3: [Edge Case or Special Scenario]
+
+**Scenario:** [Description of an edge case, error condition, or special scenario]
+
+**Input:**
+```
+[The input or prompt for this example]
+```
+
+**Expected Output:**
+```
+[What the skill should produce - often an error message or graceful handling]
+```
+
+**Handling Notes:**
+- [How this edge case is detected]
+- [What makes this scenario different from normal cases]
+- [Why this handling approach was chosen]
+
+---
+
+## Example 4: [Complex/Multi-Step Scenario]
+
+**Scenario:** [Description of a complex, realistic scenario]
+
+**Input:**
+```
+[The input or prompt for this example]
+```
+
+**Expected Output:**
+```
+[What the skill should produce]
+```
+
+**Execution Trace:**
+
+```
+[Detailed trace of execution showing]:
+- Decisions made at each step
+- Intermediate results
+- Why certain paths were taken
+```
+
+**Outcome:**
+- **Success Metric:** [How success is measured]
+- **Result:** [Whether it succeeded and why]
+
+---
+
+## Example 5: [Comparison or Alternative Approaches]
+
+**Scenario:** [Demonstrating different approaches to the same problem]
+
+### Approach A
+
+**Input:**
+```
+[Input for approach A]
+```
+
+**Output:**
+```
+[Output from approach A]
+```
+
+**Characteristics:**
+- Faster but less accurate
+- Uses [technique X]
+- Best when [condition]
+
+### Approach B
+
+**Input:**
+```
+[Input for approach B - could be same as A or slightly different]
+```
+
+**Output:**
+```
+[Output from approach B]
+```
+
+**Characteristics:**
+- More accurate but slower
+- Uses [technique Y]
+- Best when [condition]
+
+**Recommendation:** [When to use each approach]
+
+---
+
+## Example 6: [Error Recovery Scenario]
+
+**Scenario:** [What happens when something goes wrong]
+
+**Initial Input:**
+```
+[Input that will cause an error or require recovery]
+```
+
+**Error Encountered:**
+```
+[Error message or failure mode]
+```
+
+**Recovery Process:**
+1. [Detection step]
+2. [Recovery action]
+3. [Retry or fallback]
+
+**Final Output:**
+```
+[Successful result after recovery]
+```
+
+---
+
+## Testing Your Implementation
+
+Use these examples to verify your skill works correctly:
+
+### Quick Test
+
+```bash
+# Test Example 1
+[Command or method to test Example 1]
+
+# Test Example 2
+[Command or method to test Example 2]
+```
+
+### Comprehensive Test
+
+Run all examples and verify:
+- ✅ Outputs match expected results
+- ✅ Edge cases are handled gracefully
+- ✅ Performance is acceptable
+- ✅ No unexpected errors
+
+---
+
+## Contributing Examples
+
+When adding new examples:
+
+1. **Choose representative scenarios** - Cover common use cases and edge cases
+2. **Show complete context** - Include full input and output
+3. **Explain the "why"** - Help readers understand the reasoning
+4. **Keep them current** - Update examples when the skill changes
+
+**Example Template:**
+
+```markdown
+## Example N: [Title]
+
+**Scenario:** [One-line description]
+
+**Input:**
+```
+[Input]
+```
+
+**Expected Output:**
+```
+[Output]
+```
+
+**Explanation:** [Why this is the correct result]
+```

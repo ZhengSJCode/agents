@@ -66,7 +66,7 @@
       "name": "operating-kit",
       "source": "./plugins/operating-kit",
       "description": "Portable operating method: session lifecycle agents, pre-ship code review, deploy with live verification and state doc update, and production log health check",
-      "version": "1.0.0",
+      "version": "1.0.3",
       "author": {
         "name": "Sharrmavishal",
         "url": "https://github.com/Sharrmavishal"
@@ -638,7 +638,7 @@
       "name": "c4-architecture",
       "source": "./plugins/c4-architecture",
       "description": "Comprehensive C4 architecture documentation workflow with bottom-up code analysis, component synthesis, container mapping, and context diagram generation",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "Seth Hobson",
         "email": "seth@major7apps.com"
@@ -924,7 +924,7 @@
       "name": "julia-development",
       "source": "./plugins/julia-development",
       "description": "Modern Julia development with Julia 1.10+, package management, scientific computing, high-performance numerical code, and production best practices",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "Community Contribution",
         "url": "https://github.com/exAClior"
@@ -989,7 +989,7 @@
       "name": "reverse-engineering",
       "source": "./plugins/reverse-engineering",
       "description": "Binary reverse engineering, malware analysis, firmware security, and software protection research for authorized security research, CTF competitions, and defensive security",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "D\u00e1vid Balatoni",
         "url": "https://github.com/balcsida"
@@ -1080,7 +1080,7 @@
       "name": "brand-landingpage",
       "source": "./plugins/brand-landingpage",
       "description": "Guides developers from brand discovery through iterative design to deployment-ready HTML via Stitch.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "Travis D. Elliott",
         "url": "https://github.com/travis-d-elliott"
@@ -1103,7 +1103,7 @@
       "name": "block-no-verify",
       "source": "./plugins/block-no-verify",
       "description": "PreToolUse hook that prevents AI agents from using --no-verify, --no-gpg-sign, and other bypass flags that skip git hooks",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "cskwork"
       },
@@ -1229,7 +1229,7 @@
       "name": "ship-mate",
       "source": "./plugins/ship-mate",
       "description": "Your AI development teammate. Turns a story file into a shipped, reviewed, and tested feature via orchestrator \u2192 architect \u2192 developer \u2192 PR reviewer \u2192 QA \u2192 Playwright.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "Pranay Yadav",
         "email": "pranayyadav08@gmail.com",
@@ -1292,6 +1292,19 @@
         "deck-generation",
         "slide-design"
       ]
+    },
+    {
+      "name": "dirtywork-skills",
+      "source": "./plugins/dirtywork-skills",
+      "description": "Knowledge-work skills for shaping messy input into a decision: Toyota one-page minimal thinking, a focus-task execution card, first-principles reasoning, session handoff and handoff-plan, a skill authoring and evaluation toolkit, and git-squash branch cleanup.",
+      "version": "1.0.2",
+      "author": {
+        "name": "zhengshuaijie",
+        "email": "zhengshuaiji@gmail.com"
+      },
+      "homepage": "https://github.com/ZhengSJCode/agents",
+      "license": "Apache-2.0",
+      "category": "utilities"
     }
   ]
 }
